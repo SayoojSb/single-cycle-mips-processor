@@ -75,13 +75,6 @@ The expected final message is `PASS: all checks completed`. A missing `test.hex`
 gtkwave dump.vcd
 ```
 
-## Run on EDA Playground
-
-1. Select SystemVerilog/Verilog and Icarus Verilog.
-2. Paste the contents of all seven files in `rtl/` into the Design pane, one after another.
-3. Paste `tb/tb_mips.v` into the Testbench pane.
-4. Add a file named `test.hex` and paste the program above.
-5. Select **Open EPWave after run**, then click **Run**. In EPWave, add `clk`, `reset`, `pc`, `instr`, `addr`, `wdata`, `rdata`, and `we`.
 
 ## Verification
 
